@@ -1,3 +1,3 @@
 FROM ubuntu:latest
 
-CMD ["uname", "-a"]
+CMD ["cat", "/motd"]
